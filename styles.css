@@ -10,7 +10,7 @@ body{
 }
 
 .main-image{
-    background: url('images/forest.jpg');
+    background: url('forest.jpg');
     background-position: center bottom; /*la imagen se centra en el centro inferior*/
     background-size: cover;
     background-repeat: no-repeat;
