@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.main-image{
+    background: url('images/forest.jpg');
+    background-position: center bottom; /*la imagen se centra en el centro inferior*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh; /*el elemento tiene el 100% de altra de la ventana del navegador*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /*lo pone centrado tanto de lo alto y lo ancho de la pantalla*/
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.main-image h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.main-image p{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.main-image button{
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
